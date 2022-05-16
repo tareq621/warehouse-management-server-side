@@ -50,7 +50,7 @@ async function run() {
 run().catch(console.dir)
 
 app.get('/', (req, res) => {
-    res.send('runninng car ride pool')
+    res.send('car ride pool running')
 })
 
 app.listen(port, () => {
